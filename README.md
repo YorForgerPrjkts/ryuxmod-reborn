@@ -1,7 +1,7 @@
 <img src="https://telegra.ph/file/af85bf66600608deae803.jpg" width="500">
 
 
-# RyuXmod
+# RyuXmod Reborn
 ONLY FOR RM6785 
 (Realme 6, 6i, 6s, 7, N20P)
 
