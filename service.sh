@@ -173,5 +173,5 @@ echo Done
 echo
 	
 
-# This script made by @abaiik & @zidaneharith
-# Last updated : 15:46p.m. 01/06/2022
+# This script made by @abaiik & @zidaneharith & @rootachan
+# Last updated : 17:21p.m. 14/04/2023
