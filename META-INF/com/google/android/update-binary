@@ -29,7 +29,7 @@ is_legacy_script() {
 }
 
 print_modname() {
-ui_print ""
+ ui_print ""
 ui_print ""
 ui_print "    █████████████████████████████████████████████"
 ui_print "    █▄─▄▄▀█▄─█─▄█▄─██─▄█▄─▀─▄█▄─▀█▀─▄█─▄▄─█▄─▄▄▀█"
