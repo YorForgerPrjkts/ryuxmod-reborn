@@ -444,6 +444,7 @@
 <thirdpartyapp>com.jsdw.Kbunainai.nearme.gamecenter,0</thirdpartyapp>  <!--溜出去-->
 <thirdpartyapp>com.ChillyRoom.nearme.gamecenter,0</thirdpartyapp>  <!--元气骑士-->
 <thirdpartyapp>com.mingya.realdriving.nearme.gamecenter,0</thirdpartyapp>  <!--真实公路汽车-->
+<thirdpartyapp>com.supercell.clashofclans.nearme.gamecenter,0</thirdpartyapp>  <!--部落冲突-->
 <thirdpartyapp>com.tencent.tmgp.qqx5,0</thirdpartyapp>  <!--QQ炫舞-->
 <thirdpartyapp>com.ledou.mhhy.nearme.gamecenter,0</thirdpartyapp>  <!--梦幻花园-->
 <thirdpartyapp>com.joym.legendhero.nearme.gamecenter,0</thirdpartyapp>  <!--奥特曼传奇英雄-->
@@ -463,6 +464,7 @@
 <thirdpartyapp>com.jsdw.huochaizzx2.nearme.gamecenter,0</thirdpartyapp>  <!--汤米快跑-->
 <thirdpartyapp>com.wedobest.xiangqi.nearme.gamecenter,0</thirdpartyapp>  <!--象棋-->
 <thirdpartyapp>com.pokercity.bydrqp.nearme.gamecenter,0</thirdpartyapp>  <!--波克捕鱼-->
+<thirdpartyapp>com.supercell.clashroyale.nearme.gamecenter,0</thirdpartyapp>  <!--皇室战争-->
 <thirdpartyapp>com.yingxiong.heroo.nearme.gamecenter,0</thirdpartyapp>  <!--王牌战争-->
 <thirdpartyapp>com.outfit7.talkingtomcandyrun.nearme.gamecenter,0</thirdpartyapp>  <!--汤姆猫快跑-->
 <thirdpartyapp>com.tencent.shootgame,0</thirdpartyapp>  <!--魂斗罗:归来-->
@@ -612,6 +614,7 @@
 <thirdpartyapp>com.zsfz.bbbwdsjcqll.nearme.gamecenter,0</thirdpartyapp>  <!--爸爸把我的手机藏起来了-->
 <thirdpartyapp>com.tencent.game.VXDGame,0</thirdpartyapp>  <!--天天炫斗-->
 <thirdpartyapp>com.pdragon.new2048.nearme.gamecenter,0</thirdpartyapp>  <!--新2048-->
+<thirdpartyapp>com.supercell.boombeach.nearme.gamecenter,0</thirdpartyapp>  <!--海岛奇兵-->
 <thirdpartyapp>com.jsdw.Zhdzd.nearme.gamecenter,0</thirdpartyapp>  <!--最后的子弹-->
 <thirdpartyapp>com.metek.ultraman.nearme.gamecenter,0</thirdpartyapp>  <!--奥特曼系列OL-->
 <thirdpartyapp>com.huiyao.zhdfx.nearme.gamecenter,0</thirdpartyapp>  <!--生化围城-->
@@ -1159,6 +1162,7 @@
 <thirdpartyapp>com.tinybuildgames.helloneighbor,0</thirdpartyapp>  <!--你好邻居-->
 <thirdpartyapp>com.ltby.nearme.gamecenter,0</thirdpartyapp>  <!--雷霆霸业-->
 <thirdpartyapp>com.kaixinhuoguodian.nearme.gamecenter,0</thirdpartyapp>  <!--开心火锅店-->
+<thirdpartyapp>com.supercell.clashofclans.uc,0</thirdpartyapp>  <!--部落冲突-->
 <thirdpartyapp>com.quanmai.pmp.nearme.gamecenter,0</thirdpartyapp>  <!--口袋新世代-->
 <thirdpartyapp>com.ycoolgame.bubg.nearme.gamecenter,0</thirdpartyapp>  <!--绝密飞行-->
 <thirdpartyapp>com.cy.lnkp.nearme.gamecenter,0</thirdpartyapp>  <!--露娜快跑-->
@@ -1555,7 +1559,6 @@
 <package>com.olacabs.customer,0</package>
 <package>com.dream11sportsguru,0</package>
 <package>com.facebook.katana,0</package>     <!--facebook-->
-<package>com.facebook2.katana,0</package>     <!--facebook-->
 <package>com.snapchat.android,0</package>    <!--snapchat-->
 <package>com.facebook.orca,0</package>       <!--facebook.orca-->
 <package>com.eterno,0</package>              <!--Dailyhunt-->
@@ -1625,7 +1628,6 @@
 <package>com.coloros.calculator,0</package>
 <package>com.coloros.photoeffects,0</package>
 <package>org.telegram.messenger,0</package>
-<package>org.telegram.messenger.beta,0</package>
 <package>com.gaana,0</package>
 <package>com.coloros.assistantscreen,0</package>
 <package>com.miniclip.carrom,0</package>
@@ -2034,7 +2036,6 @@
 <package>com.hideitpro,0</package>  <!--Hide Photos, Video and App Lock - Hide it Pro-->
 <package>com.quvideo.xiaoying,0</package>  <!--VivaVideo - Video Editor & Video Maker-->
 <package>com.google.android.apps.youtube.mango,0</package>  <!--YouTube Go-->
-<package>com.google.android.apps.youtube.music,0</package> <!--YouTube Music-->
 <package>com.delphicoder.flud,0</package>  <!--Flud - Torrent Downloader-->
 <package>com.leo.privatezone,0</package>  <!--Private Zone - AppLock, Video & Photo Vault-->
 <package>video.like,0</package>  <!--Likee - Formerly LIKE Video-->
@@ -2078,6 +2079,7 @@
 <package>com.vanced.android.youtube,0</package>
 <package>com.king.candycrushsaga,0</package>  <!--Candy Crush Saga-->
 <package>com.ludo.king,0</package>  <!--Ludo King?-->
+<package>com.supercell.clashofclans,0</package>  <!--Clash of Clans-->
 <package>com.miniclip.eightballpool,0</package>  <!--8 Ball Pool-->
 <package>com.word.puzzle.game.connect,0</package>  <!--Word Link-->
 <package>com.king.candycrushsodasaga,0</package>  <!--Candy Crush Soda Saga-->
@@ -2085,6 +2087,7 @@
 <package>com.showtimeapp,0</package>  <!--Loco - Play Free Games, Cricket and Win!-->
 <package>com.ansangha.drdriving,0</package>  <!--Dr. Driving-->
 <package>com.fortune.sim.game.cash,0</package>  <!--Hello Stars-->
+<package>com.supercell.clashroyale,0</package>  <!--Clash Royale-->
 <package>com.riseup.game,0</package>  <!--Rise Up-->
 <package>com.nextwave.wcc2,0</package>  <!--World Cricket Championship 2 - WCC2-->
 <package>io.teslatech.callbreak,0</package>  <!--Callbreak Multiplayer-->
@@ -2141,6 +2144,7 @@
 <package>com.mediocre.smashhit,0</package>  <!--Smash Hit-->
 <package>com.king.farmheroessaga,0</package>  <!--Farm Heroes Saga-->
 <package>com.fingersoft.hcr2,0</package>  <!--Hill Climb Racing 2-->
+<package>com.supercell.hayday,0</package>  <!--Hay Day-->
 <package>com.brokenreality.planemerger.android,0</package>  <!--Merge Plane - Click & Idle Tycoon-->
 <package>com.herocraft.game.free.gibbets3,0</package>  <!--Gibbets: Bow Master-->
 <package>com.billiards.city.pool.nation.club,0</package>  <!--Pooking - Billiards City-->
@@ -2277,15 +2281,16 @@
 <package>com.rovio.baba,0</package>  <!--Angry Birds 2-->
 <package>com.unionpay,0</package>  <!--银联-->
 <package>com.amazon.avod.thirdpartyclient,0</package>  <!--亚马逊-->
+<package>com.tencent.ig,0</package>  <!--PUBG MOBILE-->
+<package>com.tencent.iglite,0</package>  <!--PUBG MOBILE LITE-->
+<package>com.pubg.krmobile,0</package>
 <package>com.rhmsoft.edit.pro,0</package>
 <package>com.sec.android.app.sbrowser,0</package>
 <package>com.sec.android.app.sbrowser.beta,0</package>
 <package>com.google.android.documentsui,0</package>
 <package>com.byu.id,0</package> 
 <package>flar2.exkernelmanager,0</package>
-<package>com.buak.link2sd,0</package>
-<package>com.artxdev.songtube,0</package>
-<package>com.ruet_cse_1503050.ragib.appbackup.pro,0</package>
+<package>com.buak.link2sd,0</package> 
 <game>com.netease.lztg.nearme.gamecenter</game>  <!--量子特工-->
 <game>com.tencent.tmgp.speedmobile</game>  <!--QQ飞车-->
 <game>com.tencent.tmgp.cf</game>  <!--穿越火线-->
