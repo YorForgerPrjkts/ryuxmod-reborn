@@ -4,6 +4,20 @@ setenforce 0
 stop logd
 stop thermald
 
+#HW
+service call SurfaceFlinger 1008 i32 1
+
+# Log Killer
+stop log
+stop logd
+stop statsd
+stop stats
+stop perf
+stop tracing
+stop trace
+stop perfd
+stop statscompanion
+
 # GED Modules
 echo 1 >/sys/module/ged/parameters/gx_game_mode
 echo 1 >/sys/module/ged/parameters/gx_force_cpu_boost
@@ -57,6 +71,30 @@ echo 1 > /proc/touchpanel/game_switch_enable
 echo Fix Touch Screen by enable Oplus TP Direction and disable limit
 echo 1 > /proc/touchpanel/oplus_tp_direction
 echo 0 > /proc/touchpanel/oplus_tp_limit_enable
+
+#Performance
+echo "0-7" > /dev/cpuset/foreground/cpus 
+echo "0-7" > /dev/cpuset/foreground/boost/cpus 
+echo "0-7" > /dev/cpuset/top-app/cpus 
+echo "0-7" > /dev/cpuset/audio-app/cpus 
+echo "0-3" > /dev/cpuset/background/cpus 
+echo "0-7" > /dev/cpuset/camera-daemon/cpus 
+echo "0-7" > /dev/cpuset/rt/cpus 
+echo "1" > /dev/stune/top-app/schedtune.colocate
+echo "1" > /dev/stune/top-app/schedtune.sched_boost_enabled
+echo "1" > /dev/stune/top-app/schedtune.sched_boost_no_override
+echo "0" > /dev/stune/top-app/schedtune.prefer_idle
+echo "0" > /dev/stune/top-app/schedtune.boost
+echo "0" > /dev/stune/foreground/schedtune.colocate
+echo "1" > /dev/stune/foreground/schedtune.sched_boost_enabled
+echo "0" > /dev/stune/foreground/schedtune.sched_boost_no_override
+echo "0" > /dev/stune/foreground/schedtune.prefer_idle
+echo "0" > /dev/stune/foreground/schedtune.boost
+echo "0" > /dev/stune/background/schedtune.colocate
+echo "1" > /dev/stune/background/schedtune.sched_boost_enabled
+echo "0" > /dev/stune/background/schedtune.sched_boost_no_override
+echo "0" > /dev/stune/background/schedtune.prefer_idle
+echo "0" > /dev/stune/background/schedtune.boost
 	
 # Disable CABC 
 echo Disable CABC Mode for best experience
@@ -103,6 +141,26 @@ echo 1024 > /dev/stune/top-app/schedtune.util.max
 echo 0 > /dev/stune/top-app/schedtune.util.min
 echo 0 > /dev/stune/top-app/schedtune.boost
 echo 1 > /dev/stune/top-app/schedtune.prefer_idle
+
+# Disable another logging like gpu,etc
+write "/sys/module/rmnet_data/parameters/rmnet_data_log_level" "0"
+write "/sys/kernel/debug/rpm_log" "0"
+write "/d/tracing/tracing_on" "0"
+
+# Disable EXT4 Journalism
+tune2fs -o journal_data_writeback /block/path/to/system;
+tune2fs -O ^has_journal /block/path/to/system;
+tune2fs -o journal_data_writeback /block/path/to/cache;
+tune2fs -O ^has_journal /block/path/to/cache;
+tune2fs -o journal_data_writeback /block/path/to/data;
+tune2fs -O ^has_journal /block/path/to/data;
+
+# fstrim
+fstrim /data;
+fstrim /system;
+fstrim /cache;
+fstrim /vendor;
+fstrim /product;
 	
 # Global
 echo 0 > /dev/stune/schedtune.util.min
